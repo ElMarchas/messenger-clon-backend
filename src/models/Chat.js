@@ -1,6 +1,6 @@
 import { Schema, model } from "mongoose";
 
-const userSchema = new Schema(
+const chatSchema = new Schema(
   {
     uuid: {
       type: String,
@@ -30,4 +30,4 @@ const userSchema = new Schema(
   { timestamps: true }
 );
 
-export default model("user", userSchema);
+export default model("chat", chatSchema);

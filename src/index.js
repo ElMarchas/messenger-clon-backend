@@ -1,5 +1,7 @@
 import app from "./app.js";
-import "./database.js";
+import connectDB from "./database.js";
 
-app.listen(3000);
-console.log("server on port", 3000);
+connectDB();
+
+app.listen(6660);
+console.log("server on port", 6660);
